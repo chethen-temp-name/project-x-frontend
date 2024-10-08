@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "mediasoup-client": "^3.7.17",
     "next": "14.2.14",
+    "peerjs": "^1.5.4",
     "react": "^18",
     "react-dom": "^18",
     "simple-peer": "^9.11.1",
-    "socket.io-client": "^4.8.0"
+    "socket.io-client": "^4.8.0",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
