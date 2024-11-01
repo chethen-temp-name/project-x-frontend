@@ -72,6 +72,7 @@ export default function Room() {
               <video
                 autoPlay
                 playsInline
+                muted={false}
                 ref={(videoElement) => {
                   if (videoElement) {
                     videoElement.srcObject = stream;
